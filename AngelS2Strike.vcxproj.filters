@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\hl2sdk">
+      <UniqueIdentifier>{3ed5171f-4e38-4590-b587-8831e2f56e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\metamod">
+      <UniqueIdentifier>{8ddc37da-ae0c-4754-b2dc-4825af30d8a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\mm_plugin.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\mm_plugin.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="hl2sdk\tier1\convar.cpp">
+      <Filter>Source\hl2sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hl2sdk\tier1\generichash.cpp">
+      <Filter>Source\hl2sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hl2sdk\tier1\keyvalues3.cpp">
+      <Filter>Source\hl2sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hl2sdk\entity2\entityidentity.cpp">
+      <Filter>Source\hl2sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hl2sdk\entity2\entitykeyvalues.cpp">
+      <Filter>Source\hl2sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hl2sdk\entity2\entitysystem.cpp">
+      <Filter>Source\hl2sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="metamod-source\core\sourcehook\sourcehook_impl_cproto.cpp">
+      <Filter>Source\metamod</Filter>
+    </ClCompile>
+    <ClCompile Include="metamod-source\core\sourcehook\sourcehook_impl_cvfnptr.cpp">
+      <Filter>Source\metamod</Filter>
+    </ClCompile>
+    <ClCompile Include="metamod-source\core\sourcehook\sourcehook.cpp">
+      <Filter>Source\metamod</Filter>
+    </ClCompile>
+    <ClCompile Include="metamod-source\core\sourcehook\sourcehook_impl_chookidman.cpp">
+      <Filter>Source\metamod</Filter>
+    </ClCompile>
+    <ClCompile Include="metamod-source\core\sourcehook\sourcehook_impl_chookmaninfo.cpp">
+      <Filter>Source\metamod</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
